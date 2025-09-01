@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SMS GAMMING</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@300;600&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: radial-gradient(ellipse at center, #0f2027, #203a43, #2c5364);
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 0 20px #00f2ff88;
+      border-radius: 20px;
+      padding: 35px;
+      max-width: 400px;
+      width: 90%;
+      text-align: center;
+      backdrop-filter: blur(12px);
+      animation: popUp 1s ease;
+    }
+
+    @keyframes popUp {
+      from { transform: scale(0.95); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 4px solid #00f2ff;
+      box-shadow: 0 0 25px #00f2ff;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 24px;
+      color: #00f2ff;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      font-size: 14px;
+      color: #aaa;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 13px;
+      color: #ccc;
+      line-height: 1.5;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: transparent;
+      border: 2px solid #00f2ff;
+      padding: 12px;
+      margin: 10px 8px;
+      border-radius: 12px;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #00f2ff;
+      transform: scale(1.05);
+    }
+
+    .btn img {
+      width: 22px;
+      height: 22px;
+    }
+
+    footer {
+      margin-top: 15px;
+      font-size: 12px;
+      color: #aaa;
+    }
+
+    footer a {
+      color: #00f2ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img class="profile-pic" src="https://i.postimg.cc/kMNd7Tdn/IMG-20250810-WA0034.jpg" alt="HASSNI DF"/>
+    <h1>SMS GAMMING </h1>
+    <h3>Gamer | Content Creator | MINECRAFT </h3>
+    <p>
+      I’m Samiullah, a hardcore FF And Mine Craft Gamer. Here you’ll find tactical gameplay, action-packed missions, and pro tips. Subscribe and enjoy the game!
+    </p>
+
+    <a href="mailto:samiullahdahri210@gmail.com" class="btn" target="_blank">
+      <img src="https://i.postimg.cc/mgs7QF4B/1000032700-removebg-preview.png" alt="Email">
+    </a>
+    <a href="https://www.instagram.com/smsgaming123?igsh=YzljYTk1ODg3Zg==" class="btn" target="_blank">
+      <img src="https://i.postimg.cc/B69QVt2N/1000032701-removebg-preview.png" alt="Instagram">
+    </a>
+    <a href="https://www.youtube.com/channel/UCj6WiWCBHZwLO5Bnyukoxlg" class="btn" target="_blank">
+      <img src="https://i.postimg.cc/tRZhX4wF/red-circle-bordered-youtube-logo-with-long-shadow-on-transparent-background-free-png.png" alt="YouTube">
+    </a>
+
+    <footer>
+      Developed By <a href="https://xorval-pk.vercel.app" target="_blank">Xorval</a>
+    </footer>
+  </div>
+</body>
+</html>
